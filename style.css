@@ -1,0 +1,171 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: sans-serif;
+    
+    background-color: #f0f8ff;  
+}
+
+nav{
+    display: flex;
+    height: 15vh;
+    background-color: black;
+    color: white;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+nav ul {
+    display: flex;
+    justify-content: space-evenly;
+    padding: 10px;
+    list-style: none;
+}
+
+nav ul li{
+    text-decoration: none;
+    padding: 20px;
+}
+
+nav ul li a{
+    text-decoration: none;
+    color: white;
+}
+
+nav ul li a:hover{
+    color: #0c4c76;
+}
+
+.main{
+    height: 100vh;
+    display: flex;
+    
+    /* align-items: center; */
+    justify-content: center;
+    background-image: url("./images/evp-cl.jpg");
+    background-attachment: fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.hero{
+    display: flex;
+    justify-content: center;
+}
+
+.main-heading{
+    margin: 20px;
+    font-family: sans-serif;
+    color:#0c4c76;
+    
+}
+
+.about{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    font-size: 20px;
+    height: 90vh;
+}
+
+
+.contact h1 {
+    text-align: center;
+    color:#0c4c76; 
+    font-size: 2em;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    width: 70%;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+form label {
+    margin-bottom: 5px;
+    color:#0c4c76; 
+}
+
+form input {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+form button {
+    padding: 10px 20px;
+    color:#0c4c76;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#message {
+    text-align: center;
+    margin-top: 10px;
+}
+
+footer {
+    background-color:#0c4c76;
+    color: #fff; 
+    padding: 20px 0;
+    height: 70vh;
+  }
+  
+  .footer-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+    
+    margin: 0 auto;
+  }
+  
+  .footer-info {
+    flex: 1;
+  }
+  
+  .footer-logo {
+    width: 150px; 
+    display: block;
+    margin-bottom: 10px;
+  }
+  
+  .footer-info p {
+    margin-bottom: 15px;
+  }
+  
+  .social-links {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .social-links li {
+    display: inline-block;
+    margin-right: 10px;
+  }
+  
+  .social-links a {
+    color: inherit;
+  }
+  
+  .social-links i {
+    font-size: 20px;
+  }
+  
+  .copyright {
+    text-align: center;
+    flex: 1;
+  }
